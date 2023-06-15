@@ -1,0 +1,31 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint"content="width=device-width, initial-scale=1.0">
+        <title>Home|<%=title%></title>
+    </head>
+    <body>
+        <nav>
+            <div class="site-title">
+                <a href="/"><h1>Blog</h1></a>
+                <p>A Net Site</p>
+            </div>
+            <ul>
+                <li><a href="/">Blogs</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/blog/create">New Blog</a></li>
+            </ul>
+        </nav>
+        <div class="blog content">
+           <form>
+            <label for="title">Blog Title:</label>
+            <input type="text" id="title" required>
+            <label for="snippet">Blog Snippet:</label>
+            <input type="text" id="snippet" required>
+            <label for="body">Blog Body:</label>
+            <textarea name="body" required></textarea>
+            <button>Submit</button>
+           </form>
+        </div>
+    </body>
+</html>
